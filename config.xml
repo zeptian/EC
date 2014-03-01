@@ -3,13 +3,17 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.hello-world"
+        id        = "com.phonegap.ec"
         version   = "1.0.0">
 
     <name>EC</name>
 
     <description>
+<<<<<<< HEAD
         Media Pembelajaran Elektronika Pesawat Televisi
+=======
+        Media Pembelajaran Android
+>>>>>>> 5dac3b1bb58fff4d944919c6317daabdced076b6
     </description>
 
     <author href="" email="boye.septian@gmail.com">
