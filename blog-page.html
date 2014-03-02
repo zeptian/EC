@@ -526,8 +526,140 @@ function createSummaryAndThumb(pID){
 </div>
 </div>
 <div class="post-body entry-content">
-<p>
-</p>
+<div class="container">
+    <form action="jawab.php" class="form-horizontal" role="form">
+		<div class="form-group">
+			<label for="inputNama" class="col-lg-2 control-label">Nama</label>
+			<div class="col-lg-10">
+				<input name="nama" type="text" class="form-control" id="inputNama" placeholder="Nama">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="inputAbsen" class="col-lg-2 control-label">No Absen</label>
+			<div class="col-lg-10">
+				<input name="absen" type="text" class="form-control" id="inputAbsen" placeholder="No Absen">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="inputKelas" class="col-lg-2 control-label">Kelas</label>
+			<div class="col-lg-10">
+				<select class="form-control">
+					<option value="TAV1">TAV 1</option>
+					<option value="TAV2">TAV 2</option>
+					<option value="TAV3">TAV 3</option>
+				</select>
+			</div>
+		</div>
+	<ul class="nav nav-tabs" id="myTab">
+		<li class="active"><a href="#pretest">Pretest</a></li>
+		<li><a href="#posttest">posttest</a></li>
+	</ul>
+		<div class="tab-content">
+		<div class="tab-pane active" id="pretest">
+		<div class="form-group">
+			<label for="soal1">1. Sebutkan bagian pesawat penerima televisi berwarna sederhana?</label>
+			<textarea name="pre1" id="soal1" class="form-control" rows="3"></textarea>
+		</div>
+		<div class="form-group">
+			<label for="soal2">2. Jelaskan bagaimana cara kerja dari power supply secara singkat dan jelas?</label>
+			<textarea name="pre2" id="soal2" class="form-control" rows="3"></textarea>
+		</div>
+		<div class="form-group">
+			<label for="soal3">3. Komponen apa di bagian power supply yang berguna menaikan tegangan dan jelaskan output tegangan yang dihasilkan</label>
+			<textarea name="pre3" id="soal3" class="form-control" rows="3"></textarea>
+		</div>
+		<div class="form-group">
+			<label for="soal4">4. Apa kegunaan tuner (penala) dalam pesawat televisi</label>
+			<textarea name="pre4" id="soal4" class="form-control" rows="3"></textarea>
+		</div>
+		<div class="form-group">
+			<label for="soal5">5. Bagian apa saja yang terdapat pada bagian singkronisasi sparator, sebutkan</label>
+			<textarea name="pre5" id="soal5" class="form-control" rows="3"></textarea>
+		</div>
+		<div class="form-group">
+			<label for="soal6">6. Sebutkan komponen utama dari penguat video</label>
+			<textarea name="pre6" id="soal6" class="form-control" rows="3"></textarea>
+		</div>
+		<div class="form-group">
+			<label for="soal7">7. Sebutkan komponen utama dari penguat audio</label>
+			<textarea name="pre7" id="soal7" class="form-control" rows="3"></textarea>
+		</div>
+		<div class="form-group">
+			<label for="soal8">8. Di dalam flyback terdapat 2 tuas, sebutkan dan berapa tegangan yang dihasilkan oleh flyback</label>
+			<textarea name="pre8" id="soal8" class="form-control" rows="3"></textarea>
+		</div>
+		<div class="form-group">
+			<label for="soal9">9. Di dalam defleksi yoke terdapat 2 kumparan, sebutkan nama kimparan tersebut</label>
+			<textarea name="pre9" id="soal9" class="form-control" rows="3"></textarea>
+		</div>
+		<div class="form-group">
+			<label for="soal10">10. Apa fungsi dari filamet</label>
+			<textarea name="pre10" id="soal10" class="form-control" rows="3"></textarea>
+		</div>
+		</div>
+		<div class="tab-pane" id="posttest">
+		<div class="form-group">
+			<label for="soal1">1. Komponen apa di bagian power supply yang berguna menaikan tegangan dan jelaskan output tegangan yang dihasilkan</label>
+			<textarea name="post1" id="soal1" class="form-control" rows="3"></textarea>
+		</div>
+		<div class="form-group">
+			<label for="soal2">2. Jelaskan bagaimana cara kerja dari power supply secara singkat dan jelas</label>
+			<textarea name="post2" id="soal2" class="form-control" rows="3"></textarea>
+		</div>
+		<div class="form-group">
+			<label for="soal3">3. Sebutkan bagian pesawat penerima televisi berwarna sederhana?</label>
+			<textarea name="post3" id="soal3" class="form-control" rows="3"></textarea>
+		</div>
+		<div class="form-group">
+			<label for="soal4">4. Apa kegunaan tuner (penala) dalam pesawat televisi</label>
+			<textarea name="post4" id="soal4" class="form-control" rows="3"></textarea>
+		</div>
+		<div class="form-group">
+			<label for="soal5">5. Bagian apa saja yang terdapat pada bagian singkronisasi sparator, sebutkan</label>
+			<textarea name="post5" id="soal5" class="form-control" rows="3"></textarea>
+		</div>
+		<div class="form-group">
+			<label for="soal6">6. Sebutkan komponen utama dari penguat video</label>
+			<textarea name="post6" id="soal6" class="form-control" rows="3"></textarea>
+		</div>
+		<div class="form-group">
+			<label for="soal7">7. Sebutkan komponen utama dari penguat audio</label>
+			<textarea name="post7" id="soal7" class="form-control" rows="3"></textarea>
+		</div>
+		<div class="form-group">
+			<label for="soal8">8. Di dalam flyback terdapat 2 tuas, sebutkan dan berapa tegangan yang dihasilkan oleh flyback</label>
+			<textarea name="post8" id="soal8" class="form-control" rows="3"></textarea>
+		</div>
+		<div class="form-group">
+			<label for="soal9">9. Di dalam defleksi yoke terdapat 2 kumparan, sebutkan nama kumparan tersebut</label>
+			<textarea name="post9" id="soal9" class="form-control" rows="3"></textarea>
+		</div>
+		<div class="form-group">
+			<label for="soal10">10. Apa fungsi dari filamet</label>
+			<textarea name="post10" id="soal10" class="form-control" rows="3"></textarea>
+		</div>
+		</div>
+		</div>	
+		<div class="form-group">
+			<div class="col-lg-10">
+				<button type="submit" id="pretest" class="btn btn-primary btn-default">Kirim jawaban</button>
+			</div>
+		</div>
+	</form>
+</div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	<script src="js/bootstrap.js"></script>
+	<script>$(document).ready(function(){
+				$('#myTab a').click(function (e) {
+					e.preventDefault()
+					$(this).tab('show')
+				})
+			}); </script>
+
 <div style="clear: both;"></div>
 </div>
 <div class="post-footer">
